@@ -58,7 +58,7 @@ const Navbar = () => {
             onClick={() => scrollToSection("home")}
             className="font-display text-2xl font-semibold text-primary hover:opacity-80 transition-opacity"
           >
-            Elegance
+            TimelessElegance
           </button>
 
           {/* Desktop Navigation */}
