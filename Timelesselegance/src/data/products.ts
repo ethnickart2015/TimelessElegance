@@ -96,7 +96,7 @@ export const products: Product[] = [
     description: "Sophisticated white kurthi with pearl accents, perfect for formal occasions",
     price: 3299,
     images: ["/products/pearl-white.jpg"],
-    fabricType: "Silk",
+    fabricType: "Linen",
     category: "Formal",
     details: {
       fabric: "Premium Silk",
