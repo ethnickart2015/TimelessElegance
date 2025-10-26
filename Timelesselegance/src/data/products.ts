@@ -178,7 +178,7 @@ export const getProductsByFabric = (fabricType: string): Product[] => {
 };
 
 export const generateWhatsAppLink = (product: Product): string => {
-  const phoneNumber = "919999999999"; // Replace with actual WhatsApp Business number
+  const phoneNumber = "917980153136"; // Replace with actual WhatsApp Business number
   const message = encodeURIComponent(
     `Hi! I'm interested in:\n\n` +
     `Product: ${product.name}\n` +
