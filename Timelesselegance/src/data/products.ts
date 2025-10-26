@@ -4,7 +4,7 @@ export interface Product {
   description: string;
   price: number;
   images: string[];
-  fabricType: 'Cotton' | 'Silk' | 'Rayon' | 'Linen'; // Main fabric category
+  fabricType: 'Cotton' | 'Silk' | 'Rayon' | 'Linen' | 'Polyster' ; // Main fabric category
   category: string;
   details: {
     fabric?: string;
@@ -126,7 +126,7 @@ export const products: Product[] = [
     description: "Stunning emerald green kurthi with sequin work, makes a bold statement",
     price: 2799,
     images: ["/products/emerald-charm.jpg"],
-    fabricType: "Rayon",
+    fabricType: "Polyster",
     category: "Festive",
     details: {
       fabric: "Georgette with Lining",
